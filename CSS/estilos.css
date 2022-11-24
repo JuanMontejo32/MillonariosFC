@@ -40,14 +40,27 @@
 }
 @media screen and (max-width:800px){
 
-    .simply-section{
+    .simply-section {
+        background: #fff;
         width: 100px;
         height: 100px;
+        margin: 0 10px;
+        border-radius: 100px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 }
 @media screen and (max-width:500px){
-    .simply-section{
-        width: 100px;
-        height: 100px;
+    .simply-section {
+        margin: 0 3px;
+    }
+    .simply-amount {
+
+        font-size: 25px;
+        font-weight: 700;
+    }
+    .simply-word {
+        font-size: 10px;
     }
 }
