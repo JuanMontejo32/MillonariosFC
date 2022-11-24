@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MILLONARIOS FC</title>
+    <link rel="styleesheet" href="text.css">
+    <link rel='stylesheet' href='https://unpkg.com/boxicons@2.0.9/css/boxicons.min.css'>
+    <link rel="stylesheet" href="/CSS/style.css">
+    <link rel="stylesheet" href="/CSS/estilos.css">
+
+</head>
+<body>
+    <!--Menu desplegable-->
+    <header class="header" id="inicio">
+        <img src="/Imagenes/menu.png" alt="" class="hamburger">
+        <nav class="menu-navegacion">
+            <a href="#inicio">Inicio</a>
+            <a href="#historia">Historia</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#proximo_partido">Próximo encuentro</a>
+            <a href="#ultima_jornada">Ultimas Jornadas</a>
+            <a href="#contacto">Contacto</a>
+        </nav>
+        <!--Primera vista titulo-->
+        <div class="contenedor head">
+            <h1 class="titulo">MILLONARIOS FC</h1>
+            <p class="coppy">Azul y Blanco Millonarios Fútbol Club S. A</p>
+        </div>
+    </header>
+    <main>
+        <!--Segunda pagina-->
+        <section class="contenedor" id="historia">
+            <h2 class="subtitulo" style="padding: 10px;">Nuestros Palmares</h2>
+            <div class="contenedor-servicio">
+                <img src="../Imagenes/nomina.jpg">
+                <div class="checklist-servicio">
+                    <div class="service">
+                    <h3 class="n-service"><span class="number">15</span>Torneos Colombianos</h3>
+                    <p>1949, 1951, 1952, 1953, 1959, 1961, 1962, 1963, 1964, 1972, 1978, 1987, 1988, 2012-II, 2017-II.</p>
+                    </div>
+                <div class="service">
+                    <h3 class="n-service"><span class="number">3</span>Copa Colombia</h3>
+                    <p>	1952-53, 2011, 2022</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Superliga Colombiana</h3>
+                        <p>2018.</p>
+                    </div>   
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Copa Merconorte</h3>
+                        <p>2001.</p>
+                    </div>  
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Copa Simon Bolivar</h3>
+                        <p>1972.</p>
+                    </div>
+                    <div class="service">
+                        <h3 class="n-service"><span class="number">1</span>Pequeña Copa del Mundo</h3>
+                        <p>1953.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Tercera pagina galeria-->
+        <section class="gallery" id="galeria">
+            <div class="contenedor">
+                <h2 class="subtitulo" style="padding: 10px">Galeria</h2>
+                <div class="contenedor-galeria">
+                    <img src="/Imagenes/img1.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img2.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img3.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img4.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img5.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img6.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img7.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img8.jpg" alt="" class="img-galeria">
+                    <img src="/Imagenes/img9.jpg" alt="" class="img-galeria">
+                </div>
+            </div>
+        </section>
+        <!--Cuarta pagina prximo partido-->
+        <section class="imagen-light">
+        <img src="/Imagenes/cerrar.png" alt="" class="close">
+            <img src="" alt="" class="agregar-imagen">
+        </section> 
+        <section class="contenedor" id="proximo_partido"> 
+            <h2 class="subtitulo" style="padding: 10px">Próximo partido en:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <div id="cuenta"></div>
+                    <br>
+                    <img src="/Imagenes/fecha_5.png" alt="">
+                </div>   
+            </section>
+        </section>
+        <!--Quinta pagina ultimas fichas-->    
+        <section class="contenedor" id="ultima_jornada"> 
+            <h2 class="subtitulo" style="padding: 10px">Ultimas 3 fechas:</h2>
+            <section class="experts">
+                <div class="cont-expert">
+                    <img src="/Imagenes/fecha_4.png" alt="">
+                </div>
+                <div class="cont-expert">
+                    <img src="/Imagenes/fecha_3.png" alt="">
+                </div>
+                <div class="cont-expert">
+                    <img src="/Imagenes/fecha_2.png" alt="">
+                </div>
+            </section>
+        </section>
+    </main>
+    <!--Pie de pagina-->
+    <footer id="contacto">
+        <div class="contenedor footer-content">
+            <div class="contact-us">
+                <h2 class="brand">MILLONARIOS FC</h2>
+                <p>76 años</p>
+            </div>
+            <div class="social-media">
+                <a href="https://www.facebook.com/millosfcoficial/" class="social-media-icon">
+                    <i class='bx bxl-facebook-circle'></i>
+                </a>
+                <a href="https://twitter.com/MillosFCoficial" class="social-media-icon">
+                    <i class='bx bxl-twitter' ></i>
+                </a>
+                <a href="https://www.instagram.com/millosfcoficial/?hl=es-la" class="social-media-icon">
+                    <i class='bx bxl-instagram' ></i>
+                </a>
+            </div>
+        </div>
+        <div class="line"></div>
+    </footer>
+    <!--Script-->
+    <script src="/JS/menu.js"></script>
+    <script src="/JS/lighbox.js"></script>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
+	<script src="/JS/simplyCountdown.min.js"></script>
+	<script src="/JS/countdown.js"></script>
+</body>
+</html>
