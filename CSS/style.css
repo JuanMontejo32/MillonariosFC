@@ -135,6 +135,9 @@ header{/*Imagen y fondo primera pagina*/
 .gallery{/*Fondo galeria*/
     background: #f2f2f2;
 }
+.nomina{
+ border-radius: 1%;
+}
 
 .contenedor-galeria{
     display: flex;
